@@ -1,5 +1,5 @@
-# SASS
-## Tech University - SASS
+# Tech University - SASS
+## Capacitación en Technisys
 
 - Conceptos.
 - Variables.
