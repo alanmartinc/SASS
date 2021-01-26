@@ -1,0 +1,30 @@
+// Variables
+$text-primary: #111111
+$padding-uno: 20px
+$background-dark: #333333
+$background-red: #cf1e1e
+$text-light: #ffffff
+
+// Anidamiento I
+.header 
+    display: flex
+    width: 100%
+    #titulo 
+        color: $text-light
+        background: $background-dark
+
+// Anidamiento II 
+.header 
+    display: flex
+    width: 100%
+    // Anidamiento Hijos 
+    &:nth-child(1)
+        color: $text-light
+        background: $background-dark
+        // Anidamiento Hover
+        &:hover
+            color: $text-primary
+            background: $background-red
+
+// Modulos
+@import _mixins, _variables, _header, _forms, _buttons

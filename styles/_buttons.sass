@@ -1,0 +1,16 @@
+// Heredar
+%botonazul
+    background-color: $blue
+    color: $text-light
+
+.boton
+    // Mixin
+    +boton()
+    // Extend
+    @extend %botonazul
+
+.boton-cancelar
+    // Mixin
+    +boton()
+    background-color: $background-dark
+    color: $text-light

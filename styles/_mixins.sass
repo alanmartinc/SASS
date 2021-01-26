@@ -1,0 +1,15 @@
+// Mixins
+=boton()
+    border: 0
+    border-radius: 05px
+    padding: 05px
+
+=titulos($tamano)
+    h1
+        font-size: $tamano
+    h2
+        font-size: $tamano - 1
+
+=parrafos()
+    @media screen and (max-width: 700px)
+        +titulos(1rem)

@@ -1,0 +1,80 @@
+.header {
+  display: flex;
+  width: 100%;
+}
+.header #titulo {
+  color: #ffffff;
+  background: #333333;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+}
+.header:nth-child(1) {
+  color: #ffffff;
+  background: #333333;
+}
+.header:nth-child(1):hover {
+  color: #111111;
+  background: #cf1e1e;
+}
+
+.header {
+  display: flex;
+  flex-flow: row;
+  height: 60px;
+  width: 100%;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  background: #111111;
+}
+.header h1 {
+  font-size: 3rem;
+}
+.header h2 {
+  font-size: 2rem;
+}
+
+.content h1 {
+  font-size: 5rem;
+}
+.content h2 {
+  font-size: 4rem;
+}
+@media screen and (max-width: 700px) {
+  .content h1 {
+    font-size: 1rem;
+  }
+  .content h2 {
+    font-size: 0rem;
+  }
+}
+.content .formulario {
+  display: flex;
+  flex-flow: column;
+  color: #333333;
+  align-items: center;
+}
+
+.boton {
+  background-color: #417ae4;
+  color: #ffffff;
+}
+
+.boton {
+  border: 0;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.boton-cancelar {
+  border: 0;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #111111;
+  color: #ffffff;
+}
+
+/*# sourceMappingURL=styles.css.map */
